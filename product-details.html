@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" href="poze/logos.png">
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Food Details - Superpet</title>
+	<link rel="stylesheet" href="style.css"> 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+</head>
+<body>
+<div class="container">
+<div class ="navbar">
+       <div class="logo">
+       <img src ="poze/logo.png" width="125px">
+  </div>
+    <nav>
+      <ul id="MenuItems">
+	<li><a href="Acasa.html">Home</a></li>
+	<li><a href="products.html">Products</a></li>
+	<li><a href="">Contact us</a></li>
+	<li><a href="">Account</a></li>
+      </ul>
+    </nav>
+	<img src="poze/cart.png" width="30px" height="30px">
+	<img src="poze/menu.png" class="menu-icon" onclick="menutoggle()">
+  </div>
+</div>
+</div>
+				<!-------- single product details ---------->
+    
+<div class="small-conatiner single-product">
+		<div class="row">
+			<div class="col-2">
+			  <img src="poze/kiani.jpeg" width="100%">
+				</div>
+			<div class="col-2">
+					<p>Mancare pentru caini 5-10kg.</p>
+					<h1> Sac de boabe caini Kiani</h1>
+					<h4>50 de lei</h4>
+					<h3>Select quantity:</h3>
+				<input type="number" value="1" class="no-outline">
+				<a href="" class="btn">Add to Cart</a>
+				<h3>Food details</h3>
+				<br>
+				<p>While the exact composition of dog food varies widely from one manufacturer to another, dog food generally is made up of meats, meat byproducts, cereals, grains, vitamins, and minerals. Modern dog foods got their start as a dry, biscuit-like food created in England in the 1860s.</p>
+		</div>
+	</div>
+</div>
+
+	  						
+<div class="small-container">
+	
+	<div class="row">
+<div class="col-4">
+	<img src="poze/kiani.jpeg">
+	<h4>Mancare Chappi<h4>
+	<p>50 lei</p>
+</div>
+<div class="col-4">
+	<img src="poze/kiani.jpeg">
+	<h4>Mancare Chappi<h4>
+	<p>50 lei</p>
+</div>
+<div class="col-4">
+	<img src="poze/kiani.jpeg">
+	<h4>Mancare Chappi<h4>
+	<p>50 lei</p>
+</div>
+<div class="col-4">
+	<img src="poze/kiani.jpeg">
+	<h4>Mancare Chappi<h4>
+	<p>50 lei</p>
+</div>
+</div>
+	
+</div>
+	
+
+
+</div>
+					<!--josul paginii-->
+<div class="footer">
+ <div class="container">
+  <div class="row">
+   <div class="footer-col-1">
+	<h3>dadada</h3>
+	<p>Informatii de contact</p>
+</div>
+ <div class="footer-col-2">
+	<img src="poze/logo.png">
+	<p>email.example@gmail.com</p>
+</div>
+ <div class="footer-col-3">
+	<h3>Socials</h3>
+	 <ul>
+		<li>Facebook</li>
+		<li>Instagram</li>
+		<li>Twitter</li>
+		<li>Snap</li>
+		 </ul>
+</div>
+</div>
+<hr>
+<p class="copyright">Copyright 2022 - TheButterfly</p>
+</div>
+</div>
+				<!-----programul js pentru meniul de telefon-->
+<script>
+	var MenuItems = document.getElementById("MenuItems");
+
+	MenuItems.style.maxHeight = "0px";
+	
+	function menutoggle(){
+		if(MenuItems.style.maxHeight == "0px")
+			{
+				MenuItems.style.maxHeight = "200px";
+			}
+			else
+			{
+				MenuItems.style.maxHeight = "0px";
+			}
+}
+</script>
+
+
+</body>
+</html>
